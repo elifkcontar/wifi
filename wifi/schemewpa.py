@@ -1,5 +1,6 @@
 import re
-from wifi import Cell, Scheme
+from wifi.scheme import Scheme
+from wifi.scan import Cell
 import wifi.subprocess_compat as subprocess
 from wifi.utils import ensure_file_exists
 
